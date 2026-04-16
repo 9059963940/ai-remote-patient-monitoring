@@ -85,3 +85,61 @@ This project aligns with modern digital health solutions like those developed in
 ---
 
 ## ⚙️ System Architecture
+
+Sensor Data / Input
+↓
+Data Preprocessing Layer
+↓
+Machine Learning Model
+↓
+Prediction Engine
+↓
+Alert System + Dashboard
+
+---
+
+## 🚨 Alert System
+- Sends notifications when abnormal patterns are detected
+- Flags critical patient conditions in real time
+- Can be extended to:
+  - Email alerts
+  - SMS notifications
+  - Mobile push notifications
+
+---
+
+## 📈 Output Example
+- Patient Health Status: **Normal / Risk / Critical**
+- Risk Probability Score
+- Trend graphs for vitals over time
+- Real-time dashboard visualization
+
+---
+
+## 🌐 Future Enhancements
+- Integration with wearable IoT devices (Fitbit, smart patches)
+- Cloud deployment using AWS / Azure
+- Deep Learning models for improved prediction accuracy
+- Integration with hospital management systems (HIS)
+- Real-time streaming using Kafka
+
+---
+
+## 💡 Relevance to ResMed
+This project is aligned with **ResMed’s mission of digital health innovation**, especially in:
+- Remote patient care
+- Sleep and respiratory health monitoring
+- Data-driven healthcare decision systems
+- Preventive healthcare using AI
+
+---
+
+## 👩‍💻 Author
+- **Deepika Seelam**
+- GitHub: [github.com/9059963940](https://github.com/9059963940)
+- LinkedIn: linkedin.com/in/seelam-deepika-a67399277
+
+---
+
+## 📜 License
+This project is for academic and learning purposes.
