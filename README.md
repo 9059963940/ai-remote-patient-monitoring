@@ -33,11 +33,3 @@ Continuous monitoring of patient health is critical in healthcare, especially fo
 - Easy-to-use web interface using Streamlit
 
 ---
-
-## 🖼️ Screenshots
-> Add screenshots here (VERY IMPORTANT for recruiters)
-
-Example:
-```markdown
-![Dashboard](screenshots/dashboard.png)
-![Prediction](screenshots/prediction.png)
