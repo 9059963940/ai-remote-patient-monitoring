@@ -1,35 +1,87 @@
 # 🏥 AI-Based Remote Patient Monitoring System
 
-## 📌 Problem Statement
-Continuous monitoring of patient health is critical in healthcare, especially for high-risk patients. Traditional monitoring systems require manual observation and are often inefficient in detecting early warning signs. This project aims to build an AI-powered remote patient monitoring system that can analyze patient vitals in real time and predict potential health risks.
+## 📌 Overview
+The **AI-Based Remote Patient Monitoring (RPM) System** is a healthcare-focused intelligent platform designed to continuously monitor patient health parameters in real time.  
+It leverages **machine learning and data analytics** to detect anomalies, predict potential health risks, and support proactive medical intervention.
+
+This project aligns with modern digital health solutions like those developed in **sleep and respiratory care systems (e.g., ResMed technologies)**.
 
 ---
 
-## ⚙️ Tech Stack
+## 🎯 Objectives
+- Continuously monitor patient vital signs using connected sensors / simulated data
+- Detect abnormal health patterns using Machine Learning
+- Provide early warnings for potential health risks
+- Enable remote healthcare monitoring for improved patient outcomes
+- Reduce hospital visits through proactive alerts
+
+---
+
+## 🧠 Key Features
+- 📊 Real-time patient data monitoring
+- 🤖 AI-based anomaly detection
+- ⚠️ Early warning alert system
+- 📈 Health trend visualization dashboard
+- 🧾 Patient health history tracking
+- ☁️ Scalable architecture for cloud deployment
+
+---
+
+## 🛠️ Tech Stack
+
+**Programming Languages:**
 - Python
-- Machine Learning (Scikit-learn / TensorFlow if used)
-- Streamlit (Dashboard UI)
-- Pandas, NumPy
-- Matplotlib / Plotly (Visualization)
-- SQL (if used)
+
+**Machine Learning:**
+- Scikit-learn
+- Pandas
+- NumPy
+
+**Visualization:**
+- Matplotlib
+- Seaborn
+- Streamlit (Dashboard)
+
+**Backend / Processing:**
+- Python Flask (optional)
+- REST APIs
+
+**Database:**
+- MySQL / MongoDB
+
+**Tools:**
 - Git & GitHub
+- Jupyter Notebook
+- VS Code
 
 ---
 
-## 🧠 How It Works
-1. Patient health data (heart rate, temperature, SpO2, etc.) is collected.
-2. Data is preprocessed using Python.
-3. Machine Learning model analyzes patterns and detects anomalies.
-4. Risk level is predicted (Normal / Warning / Critical).
-5. Results are displayed on a Streamlit dashboard in real time.
+## 📊 Machine Learning Approach
+
+### 1. Data Collection
+- Patient vitals such as:
+  - Heart rate
+  - Oxygen saturation (SpO2)
+  - Body temperature
+  - Blood pressure
+
+### 2. Preprocessing
+- Handling missing values
+- Normalization / scaling
+- Feature engineering
+
+### 3. Model Training
+- Algorithms used:
+  - Random Forest
+  - Logistic Regression
+  - Isolation Forest (Anomaly Detection)
+
+### 4. Prediction
+- Classifies patient condition as:
+  - Normal
+  - At Risk
+  - Critical
 
 ---
 
-## 📊 Features
-- Real-time health monitoring dashboard
-- AI-based anomaly detection
-- Risk prediction for patient condition
-- Data visualization of patient vitals
-- Easy-to-use web interface using Streamlit
-
----
+## ⚙️ System Architecture
